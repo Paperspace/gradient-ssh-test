@@ -7,7 +7,7 @@ Simple SSH workspace to connect to your running [Gradient°](https://www.papersp
 ## Running this workspace
 
 ```
-paperspace jobs create --machineType P100 --container Test-Container --ports 8888:22 --command './run.sh' --workspace "https://github.com/Paperspace/gradient-ssh-test.git" 
+paperspace jobs create --machineType P100 --container Test-Container --ports 8888:22 --command 'bash run.sh' --workspace "https://github.com/Paperspace/gradient-ssh-test.git" 
 ```
 
 Alternatively, you can clone this repo locally and run it from your own machine:
