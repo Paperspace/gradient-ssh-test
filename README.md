@@ -35,6 +35,7 @@ ssh ssh root@104.196.249.111 -p 8888
 
 *Note: we are forwarding port `8888` to the container's SSH port `22` which you can see in the `--ports 8888:22` portion of the job run. This is because the host node cannot expose port `22` directly as it is reserved for internal communication. (TODO: make list of ports that cannot be used)*
 
+You will be prompted for your password. A password was generated here: https://github.com/Paperspace/gradient-ssh-test/blob/master/run.sh#L4 which defaults to `mys3cr3t@PW`. We *highly* recommend changing this before running in your account.
 
 
 
