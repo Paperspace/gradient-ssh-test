@@ -1,0 +1,7 @@
+{
+  "project": "sshTest",
+  "machineType": "P100",
+  "container": "Test-Container",
+  "command": "./run.sh",
+  "lastJobId": "jsw7tlj4ksavjz"
+}
